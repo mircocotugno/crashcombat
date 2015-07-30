@@ -1,0 +1,15 @@
+//= require jquery/dist/jquery
+//= require bootstrap-less/js/affix
+//= require bootstrap-less/js/alert
+//= require bootstrap-less/js/button
+//= require bootstrap-less/js/carousel
+//= require bootstrap-less/js/collapse
+//= require bootstrap-less/js/dropdown
+//= require bootstrap-less/js/modal
+//= require bootstrap-less/js/tooltip
+//= require bootstrap-less/js/popover
+//= require bootstrap-less/js/scrollspy
+//= require bootstrap-less/js/tab
+//= require bootstrap-less/js/transition
+//= require threesixty-slider/dist/threesixty.min
+//= require 360-carousel.js

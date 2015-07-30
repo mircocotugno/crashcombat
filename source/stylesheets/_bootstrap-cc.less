@@ -1,0 +1,95 @@
+/* Nav */
+
+.dropdown-toggle {
+  border-left: 2px solid @brand-primary;
+  border-right: 2px solid @brand-primary;
+}
+
+.open .dropdown-toggle,
+.dropdown-menu {
+  background-color: darken(@brand-primary, 4%);
+  color: white;
+  border-left: 2px solid darken(@brand-primary, 6%);
+  border-right: 2px solid darken(@brand-primary, 6%);
+}
+
+.dropdown-menu {
+  border-top: none;
+  li {
+    :hover {
+      background-color: darken(@brand-primary, 8%);
+    }
+    a {
+      color: white;
+    }
+  }
+}
+
+.nav-tabs > li.active > a {
+  background-color: rgba(245, 245, 245, .8);
+  border: 1px solid darken(rgb(245, 245, 245), 5%);
+}
+
+.nav-tabs {
+  border-bottom: none;
+}
+
+
+/* Container */
+
+.margin-header {
+  margin-top: 50px;
+}
+
+/* Font Margins */
+
+h1, h2, h3, h4, h5, p {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin: 0;
+}
+
+
+/*Hamburger Buttom*/
+
+.navbar-default .navbar-toggle {
+  padding: 9px 7px;
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: white;
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar,
+.navbar-default .navbar-toggle:focus .icon-bar {
+  background-color: @brand-main;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+ background-color: white;
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+  color: #E9EFF9;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.navbar-default .navbar-nav .open .dropdown-menu > li > a:hover{
+  color: white;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+  background-color: darken(@brand-main, 10%);
+}
+.collapsed {
+
+}

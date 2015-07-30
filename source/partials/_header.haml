@@ -1,0 +1,40 @@
+%nav.navbar.navbar-default.navbar-fixed-top
+  .container-fluid
+    / Brand and toggle get grouped for better mobile display
+    .navbar-header
+      %button.navbar-toggle.collapsed{"data-target" => "#bs-example-navbar-collapse-1", "data-toggle" => "collapse", :type => "button"}
+        %span.sr-only Toggle navigation
+        %span.icon-bar
+        %span.icon-bar
+        %span.icon-bar
+      %div.logo.logo-text= link_to("CRASHCOMBAT", "/")
+
+    / Collect the nav links, forms, and other content for toggling
+    #bs-example-navbar-collapse-1.collapse.navbar-collapse
+      %ul.nav.navbar-nav.navbar-right
+        / %li.active
+        /   %a{:href => "#"}
+        /     Link
+        /     %span.sr-only (current)
+        / %li
+        /   %a{:href => "#"} Link
+        %li= link_to("Home","/index.html")
+        %li.dropdown
+          %a.dropdown-toggle{"aria-expanded" => "false", "data-toggle" => "dropdown", :href => "#", :role => "button"}
+            Modelli
+            %span.caret
+          %ul.dropdown-menu{:role => "menu"}
+            %li
+              %a{:href => "/reggiane.html"} Reggiane
+            %li
+              %a{:href => "/p51-mustang.html"} P-51 Mustang
+            %li
+              %a{:href => "/p40-shark.html"} P-40 Shark
+            %li
+              %a{:href => "/f4u_corsair.html"} F4U Corsair
+            %li
+              %a{:href => "/messerschmitt-bf-109.html"} Messerschmitt Bf 109
+        %li= link_to("Blog","/")
+
+    / /.navbar-collapse
+  / /.container-fluid

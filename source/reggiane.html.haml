@@ -1,0 +1,16 @@
+%div.carousel-background
+  .draggable.spacer.spacer-vertical
+    %h5.center.text-light
+      /%span.icon.arrow-left
+      %span Clicca e trascina per ruotare il modello
+      /%img.icon.arrow-right
+  .head-spacer
+    .carousel-shadow
+      .threesixty.slider-360{data: { images: '/images/reggiane/' }}
+        .spinner
+          %span 0%
+        %ol.threesixty_images
+
+  = partial("partials/box", :locals => { :title => "h1", :name => "REGGIANE",:description => "", :fullLink => "http://www.ebay.it/itm/111715391686?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1558.l2649", :baseLink => "http://www.ebay.it/itm/111715391686?ssPageName=STRK:MESELX:IT&_trksid=p3984.m1558.l2649"})
+
+  = partial "partials/details"

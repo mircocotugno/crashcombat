@@ -1,0 +1,19 @@
+{
+  "name": "crashcombat",
+  "version": "0.0.0",
+  "authors": [
+    "Mirco Cotugno <mirco@pitchtarget.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-less": "~3.3.4",
+    "jquery": "~2.1.4"
+  }
+}
