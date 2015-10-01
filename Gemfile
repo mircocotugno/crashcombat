@@ -20,3 +20,4 @@ gem 'therubyracer'
 
 #Bower
 gem "middleman-bower"
+gem 'middleman-deploy', '~> 1.0'
