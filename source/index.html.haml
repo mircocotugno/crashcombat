@@ -1,35 +1,32 @@
 ---
 title: Welcome to Middleman
 ---
-%div.stepRow.stepRow-intro
+%div.stepRow.stepBackground-intro
   .cover-background
     .cover
       .container-fluid.margin-header
-        .spacer-middle
-          %h1.text-white.shadow.textSpacer-sx Più di un gioco
-          %h1.text-white.shadow una vera battaglia
+        .spacer-middle.spacer-vertical
+          %h1.text-brand.shadow.textSpacer-sx Più di un gioco
+          %h1.text-brand.shadow una vera battaglia
 
 
 %div.stepRow.stepBackground
-  .container-fluid.margin-header
-    .row.spacer-middleHeight
-      .col-sm-6
-        .imageRow
-          %img{:src => "/images/riproduzioni.png", :class => "img-responsive valign-middle" }
-
-      .col-sm-6
-        .textRow.valign-middle
-          .textSpacer-md
-            %h2 Belli da vedere
-            %h2 facili da assemblare
-          %h3 Crash Combat produce modelli RC
-          %h3 raffiguranti i più famosi aerei della 1° e 2° guerra mondiale
-          %h3 con l'ambizione di proporvene sempre di nuovi.
+  .models
+    .container-fluid
+      .row.spacer-middleHeight
+        .col-sm-6.col-sm-offset-6
+          .textRow.valign-middle
+            .textSpacer-md
+              %h2 Belli da vedere
+              %h2 facili da assemblare
+            %h3 Crash Combat produce modelli RC
+            %h3 raffiguranti i più famosi aerei della 1° e 2° guerra mondiale
+            %h3 con l'ambizione di proporvene sempre di nuovi.
 
 
 %div.stepRow.stepBackground
   .detail
-    .container-fluid.margin-header
+    .container-fluid
       .row.spacer-middleHeight
         .col-sm-6.col-sm-offset-6
           .textRow.valign-middle
@@ -43,7 +40,7 @@ title: Welcome to Middleman
 
 %div.stepRow.stepBackground
   .crash
-    .container-fluid.margin-header
+    .container-fluid
       .row.spacer-middleHeight
         .col-sm-6.col-sm-offset-6
           .textRow.valign-middle

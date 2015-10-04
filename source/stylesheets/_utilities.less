@@ -55,6 +55,12 @@
   padding-top: @middleHeight;
 }
 
+@media (max-width: @screen-sm-min) {
+  .spacer-middleHeight {
+    padding-top: 0;
+  }
+}
+
 // Specific spacer //
 
 .spacer-horizontal {
@@ -95,6 +101,12 @@
 
 .valign-middle {
   transform: translateY(-50%);
+}
+
+@media (max-width: @screen-sm-min) {
+  .valign-middle {
+    transform: translateY(0);
+  }
 }
 
 // Size //
