@@ -11529,7 +11529,7 @@ function init(){
         progress: '.spinner', // selector to show the loading progress
         imagePath: $slider.data('images'), // path of the image assets
         filePrefix: '', // file prefix if any
-        ext: '.png', // extention for the assets
+        ext: '.jpg', // extention for the assets
         height: ninetypc,
         width: ('100%'),
         navigation: false,
