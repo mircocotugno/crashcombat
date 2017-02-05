@@ -3,25 +3,27 @@
   %h2.right.textSpacer-sm=description
 
   %div.spacer-large.spacer-bottom{:role => "tabpanel"}
-
-    / Tab panes
     .tab-content.box-details
-      #f4u-base.tab-pane.active{:role => "tabpanel"}
-        .center.spacer-small.spacer-top
-          %h2.spacer-small.spacer-bottom 45,00 €
-          %h5.spacer-small.spacer-bottom * Spese di spedizione incluse
-          %a.btn.btn-lg.btn-primary.full-width{:href => baseLink, :target => "_black"} CONTATTACI
+      .center
+        %a.btn.btn-lg.btn-primary.full-width{:href => baseLink, :target => "_black"} CONTATTACI
+    -# / Tab panes
+    -# .tab-content.box-details
+    -#   #f4u-base.tab-pane.active{:role => "tabpanel"}
+    -#     .center.spacer-small.spacer-top
+    -#       %h2.spacer-small.spacer-bottom 45,00 €
+    -#       %h5.spacer-small.spacer-bottom * Spese di spedizione incluse
+    -#       %a.btn.btn-lg.btn-primary.full-width{:href => baseLink, :target => "_black"} CONTATTACI
+    -#
+    -#   #f4u-completo.tab-pane{:role => "tabpanel"}
+    -#     .center.spacer-small.spacer-top
+    -#       %h2.spacer-small.spacer-bottom 88,00 €
+    -#       %h5.spacer-small.spacer-bottom * Spese di spedizione incluse
+    -#       %a.btn.btn-lg.btn-success.full-width{:href => fullLink, :target => "_black"} CONTATTACI
+    -#   /%a{:href => "mail"}Contattaci per maggiori informazioni
 
-      #f4u-completo.tab-pane{:role => "tabpanel"}
-        .center.spacer-small.spacer-top
-          %h2.spacer-small.spacer-bottom 88,00 €
-          %h5.spacer-small.spacer-bottom * Spese di spedizione incluse
-          %a.btn.btn-lg.btn-success.full-width{:href => fullLink, :target => "_black"} CONTATTACI
-      /%a{:href => "mail"}Contattaci per maggiori informazioni
-
-    / Nav tabs
-    %ul.nav.nav-tabs{:role => "tablist"}
-      %li#base.half-width.center.active{:role => "presentation"}
-        %a{"aria-controls" => "Modello Base", "data-toggle" => "tab", :href => "#f4u-base", :role => "tab"} Modello Base
-      %li#full.half-width.center{:role => "presentation"}
-        %a{"aria-controls" => "Modello Completo", "data-toggle" => "tab", :href => "#f4u-completo", :role => "tab"} Modello Completo
+    -# / Nav tabs
+    -# %ul.nav.nav-tabs{:role => "tablist"}
+    -#   %li#base.half-width.center.active{:role => "presentation"}
+    -#     %a{"aria-controls" => "Modello Base", "data-toggle" => "tab", :href => "#f4u-base", :role => "tab"} Modello Base
+    -#   %li#full.half-width.center{:role => "presentation"}
+    -#     %a{"aria-controls" => "Modello Completo", "data-toggle" => "tab", :href => "#f4u-completo", :role => "tab"} Modello Completo
